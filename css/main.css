@@ -11,7 +11,7 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 header {
-    height: 520px;
+    height: 450px;
     background: url('../images/14958016554_4610b00423_o.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -22,7 +22,7 @@ header {
 }
 
 .header-logo {
-    position: relative; top: 390px;
+    position: relative; top: 320px;
 }
 
 a.anchor {
