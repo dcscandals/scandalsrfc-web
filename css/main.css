@@ -1,0 +1,80 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+header {
+    height: 520px;
+    background: url('../images/14958016554_4610b00423_o.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 55px;
+    border-bottom: 20px solid #EB423C;
+}
+
+.header-logo {
+    position: relative; top: 390px;
+}
+
+a.anchor {
+    display: block; position: relative; top: -60px; visibility: hidden;
+}
+
+/*
+.navbar-inverse {
+    background-color: #EB423C;
+}
+.navbar-inverse .navbar-nav>li>a a {
+    color: #653B93;
+}
+*/
+
+/* Responsive iFrame for Google Calendar */
+ 
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+footer {
+    margin: 50px 0;
+}
