@@ -1,1 +1,5 @@
 RedirectMatch 404 /\.git
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^test\.scandalsrfc\.org$
+RewriteRule ^robots\.txt$ robots-test.txt
