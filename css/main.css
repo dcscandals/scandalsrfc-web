@@ -36,6 +36,10 @@ a.anchor {
     display: block; position: relative; top: -60px; visibility: hidden;
 }
 
+div.row div.row:not(:first-child) {
+    margin-top: 15px;
+}
+
 /* Responsive iFrame for Google Calendar and Maps */
  
 .responsive-iframe-container {
