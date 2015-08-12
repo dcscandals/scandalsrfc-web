@@ -27,7 +27,7 @@ header .item:nth-child(3) {
     border-bottom-color: #A3A0A0;
 }
 header .logo {
-    position: absolute; top: 320px; z-index: 1;
+    position: absolute; top: 220px; z-index: 1;
 }
 
 /* adjust page anchors for nav bar height */
