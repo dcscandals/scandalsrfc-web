@@ -15,15 +15,15 @@ header .item {
     -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;
 }
 header .item:nth-child(1) {
-    background-image: url('../images/14958016554_4610b00423_o.jpg');
+    background-image: url('../images/atmosphere/scrum-pack.jpg');
     border-bottom-color: #EB423C;
 }
 header .item:nth-child(2) {
-    background-image: url('../images/1597057_10204249007361507_632381274303830839_o.jpg');
+    background-image: url('../images/atmosphere/scrum-close.jpg');
     border-bottom-color: #632A7B;
 }
 header .item:nth-child(3) {
-    background-image: url('../images/1962226_10204447085673341_4650853431283370899_o.jpg');
+    background-image: url('../images/atmosphere/scrum-side.jpg');
     border-bottom-color: #A3A0A0;
 }
 header .logo {
