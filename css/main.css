@@ -14,21 +14,21 @@ header .item {
     background-repeat: no-repeat;
     -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;
 }
-header .item:nth-child(4) {
-    background-image: url('../images/atmosphere/kick.jpg');
+header .item:nth-child(1) {
+    background-image: url('../images/atmosphere/scrum-side.jpg');
     border-bottom-color: #EB423C;
 }
 header .item:nth-child(2) {
     background-image: url('../images/atmosphere/lineout.jpg');
-    border-bottom-color: #EB423C;
+    border-bottom-color: #A3A0A0;
 }
 header .item:nth-child(3) {
     background-image: url('../images/atmosphere/support.jpg');
-    border-bottom-color: #EB423C;
-}
-header .item:nth-child(1) {
-    background-image: url('../images/atmosphere/scrum-side.jpg');
     border-bottom-color: #632A7B;
+}
+header .item:nth-child(4) {
+    background-image: url('../images/atmosphere/kick.jpg');
+    border-bottom-color: #EB423C;
 }
 header .item:nth-child(5) {
     background-image: url('../images/atmosphere/score.jpg');
@@ -36,7 +36,7 @@ header .item:nth-child(5) {
 }
 header .item:nth-child(6) {
     background-image: url('../images/atmosphere/tackle.jpg');
-    border-bottom-color: #A3A0A0;
+    border-bottom-color: #632A7B;
 }
 header .logo {
     position: absolute; top: 220px; z-index: 1;
