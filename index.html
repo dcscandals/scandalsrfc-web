@@ -39,7 +39,7 @@
     <link href="/css/font-awesome.min.css" rel="stylesheet"> -->
 
     <!-- Custom CSS -->
-    <link href="https://www.scandalsrfc.org/css/main.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
 
   <!--   <link href="/css/main.css" rel="stylesheet"> -->
 
@@ -96,13 +96,16 @@
     </nav>
 
     <!-- Page header and image carousel -->
-    <header id="header-carousel" class="header carousel slide" data-ride="carousel" data-interval="10000" data-pause="false">
+    <header id="header-carousel" class="header carousel slide" data-ride="carousel" data-interval="8000" data-pause="false">
         <div class="carousel-inner" role="listbox">
             <div class="item active"></div>
             <div class="item"></div>
             <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
         </div>
-        <img class="logo" src="images/crest-2015-200.png" alt="Scandals crest">
+        <img class="logo" src="images/logos/crest-2015-200.png" alt="Scandals crest">
     </header>
 
     <!-- Page Content -->
@@ -158,7 +161,7 @@
 
         <div class="row">
             <div class="col-sm-12">
-                <img class="img-rounded img-responsive img-center" src="images/scandalsteamphoto20170909.jpg" alt="Scandals team lineup">
+                <img class="img-rounded img-responsive img-center" src="images/atmosphere/team.jpg" alt="Scandals Team Photo">
             </div>
         </div>
         <!-- /.row -->
@@ -298,7 +301,7 @@
                 <!-- Code for practice at King Greenleaf -->
                 <b>Fall 2018 Season Starts August 7th!</b>
                 <p>Practices are held on Tuesdays and Thursdays at <a href="https://goo.gl/maps/5GuLaDNj8wJ2">King Greenleaf Recreation Center
-                (201 N St SW, DC 20024)</a>. Please arrive at 7:15 to be ready for kickoff at 7:30 PM. Practice typically lasts about 2 hours. Greenleaf is conveniently located a few blocks from Waterfront Station on the Green Line. Parking is available on Delaware Ave and adjacent streets, but can be limited during Nationals home games. In the event of inclement weather or other unforeseen circumstances, practice may be moved or cancelled. Please check our Facebook and Twitter pages for the latest information.
+                (201 N St SW, DC 20024)</a>. Please arrive at 6:45 to be ready for kickoff at 7:00 PM. Practice typically lasts about 2 hours. Greenleaf is conveniently located a few blocks from Waterfront Station on the Green Line. Parking is available on Delaware Ave and adjacent streets, but can be limited during Nationals home games. In the event of inclement weather or other unforeseen circumstances, practice may be moved or cancelled. Please check our Facebook and Twitter pages for the latest information.
 
                 <p>
                 <p>The sport of rugby is played with minimal equipment making it very accessible to new players. However, we strongly encourage both new and experienced players to bring a few items to practice:</p>
@@ -329,9 +332,9 @@
             </div>
             <div class="col-sm-4">
                 <a href="http://www.teamdcsports.com/">
-                    <img class="img-responsive img-center" src="images/teamdc.png" alt="Team DC">
+                    <img class="img-responsive img-center" src="images/logos/teamdc.png" alt="Team DC">
                 </a>
-                <img class="img-rounded img-responsive img-center" src="images/10734052_10204447100393709_6047409441401889867_o_scaled.jpg" alt="Shane Hickey">
+                <img class="img-rounded img-responsive img-center" src="images/atmosphere/player-focus.jpg" alt="Player Spotlight">
             </div>
         </div>
         <!-- /.row -->
@@ -362,6 +365,25 @@
             </div>
         </div>
         <!-- /.row -->
+
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat"
+          attribution=setup_tool
+          page_id="470310496372634"
+          theme_color="#673794"
+          logged_in_greeting="Have questions? Send us a message!"
+          logged_out_greeting="Have questions? Send us a message!">
+        </div>
 
         <hr>
 
