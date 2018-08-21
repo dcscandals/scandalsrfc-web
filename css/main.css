@@ -14,8 +14,8 @@ header .item {
     background-repeat: no-repeat;
     -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;
 }
-header .item:nth-child(1) {
-    background-image: url('../images/atmosphere/scrum-side.jpg');
+header .item:nth-child(4) {
+    background-image: url('../images/atmosphere/kick.jpg');
     border-bottom-color: #EB423C;
 }
 header .item:nth-child(2) {
@@ -26,16 +26,16 @@ header .item:nth-child(3) {
     background-image: url('../images/atmosphere/support.jpg');
     border-bottom-color: #EB423C;
 }
-header .item:nth-child(4) {
-    background-image: url('../images/atmosphere/kick.jpg');
+header .item:nth-child(1) {
+    background-image: url('../images/atmosphere/scrum-side.jpg');
     border-bottom-color: #632A7B;
 }
 header .item:nth-child(5) {
-    background-image: url('../images/atmosphere/scrum-pack.jpg');
+    background-image: url('../images/atmosphere/score.jpg');
     border-bottom-color: #A3A0A0;
 }
 header .item:nth-child(6) {
-    background-image: url('../images/atmosphere/scrum-close.jpg');
+    background-image: url('../images/atmosphere/tackle.jpg');
     border-bottom-color: #A3A0A0;
 }
 header .logo {
