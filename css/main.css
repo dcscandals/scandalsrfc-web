@@ -20,7 +20,7 @@ header .item:nth-child(1) {
 }
 header .item:nth-child(2) {
     background-image: url('../images/atmosphere/lineout.jpg');
-    border-bottom-color: #A3A0A0;
+    border-bottom-color: #222222;
 }
 header .item:nth-child(3) {
     background-image: url('../images/atmosphere/support.jpg');
@@ -32,7 +32,7 @@ header .item:nth-child(4) {
 }
 header .item:nth-child(5) {
     background-image: url('../images/atmosphere/score.jpg');
-    border-bottom-color: #A3A0A0;
+    border-bottom-color: #222222;
 }
 header .item:nth-child(6) {
     background-image: url('../images/atmosphere/tackle.jpg');
