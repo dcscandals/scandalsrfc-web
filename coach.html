@@ -146,6 +146,24 @@
     <p style="margin-left: 0px">All practices and home matches take place within the District of Columbia. Exact location varies by season based on allocation. Away matches in the Mid Atlantic Conference are typically within a 2 hour drive, tournaments and friendlies can be farther away, most located along the East Coast.</p>
     <div>
 
+ <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat"
+          attribution=setup_tool
+          page_id="470310496372634"
+          theme_color="#673794"
+          logged_in_greeting="Have questions? Send us a message!"
+          logged_out_greeting="Have questions? Send us a message!">
+        </div>
 
 <!-- Footer -->
     <footer>
