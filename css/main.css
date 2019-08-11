@@ -103,6 +103,10 @@ div.row div.row:not(:first-child) {
     float: none;
 }
 
+.multi-side-li {
+    margin-left: 2em;
+}
+
 footer {
     margin: 50px 0;
 }
