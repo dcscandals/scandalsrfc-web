@@ -1,7 +1,5 @@
 language: generic
 
-install: false
-
 addons:
   ssh_known_hosts:
     - 138.197.48.54
